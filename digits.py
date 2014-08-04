@@ -44,8 +44,8 @@ def outputNumerics (grpNum, grpSize):
 def start ():
 	try:
 		if len (sys.argv) < 2:
-			print ("Example of startup: ./digits.py 10 5. 10 \
-				    groups with 5 numerics in each")
+			print ("Example of startup: ./digits.py 10 5. 10 - "
+				    "groups with 5 numerics in each")
 			return
 		outputNumerics (int (sys.argv[1]), int (sys.argv[2]))
 	except BaseException as Exc:
